@@ -1,0 +1,102 @@
+
+.header{
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+    margin-inline: 25px;
+}
+.header h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links{
+    display: inline-flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.links a{
+    margin-right: 10px;
+    font-size: 20px;
+    color:  white;
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    border-bottom: 3px solid black;
+    margin-inline: 25px;
+}
+.listbox{
+    display: flex;
+    justify-content: end;
+}
+.listbox p{
+    margin-right: 10px;
+    font-weight: bold;
+
+}
+#opsion{
+    height:fit-content;
+    margin-top: 16px;
+}
+.motivizual{
+    margin-inline: 40px;
+    margin-left: 5px;
+}
+.motivizual ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-align: center;
+    margin-inline: 25px;
+}
+.motivizual ul li{
+    background-color: lightgray;
+}
+.motivizual > ul> li > img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 70%;
+    border-radius: 50%;
+}
+.gradim{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 35px;
+}
+.gradim p{
+      font-weight: bold;
+}
+.cookies-eu-banner {
+    background: white;
+    color: black;
+    border: 3px solid black;
+    padding: 6px;
+    font-size: 13px;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    width: 60%;
+    z-index: 10;
+    margin-left: 300px;
+    display: flex;
+  }
+  .cookies-eu-banner img{
+    margin-right: 8px;
+    width: fit-content;
+  }
+  
+  .cookies-eu-banner button {
+    text-decoration: none;
+    background: lightblue;
+    color: black;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    font-size: 13px;
+    font-weight: 700;
+  }

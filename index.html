@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header class="header">
+     <h1> DojoWeather</h1> 
+     <div class="links">
+        <a href="#" onClick="showMessage()">Burbank</a>
+        <a href="#" onClick="showMessage()">Chicago</a>
+        <a href="#" onClick="showMessage()">Dallas</a>
+     </div>
+</header>
+<body>
+    <nav class="nav">
+        <h2>San Jose</h2>
+        <div class="listbox">
+            <p>Show temperature in </p>
+            <select name="temperature" id="opsion" onchange="update(this)">
+                <option value="celcius">C</option>
+                <option value="fahrenheit">F</option>
+            </select>
+        </div>
+    </nav>
+    <div class="motivizual">
+        <ul>
+            <li>
+                <h3> Today</h3>
+                <img src="assets/some_rain.png" alt="somerain">
+                <p>some rain</p>
+                <div class="gradim">
+                        <p class="high"><span class="current">24°</span></p>
+                        <p class="low"><span class="current">18°</span></p>
+                </div>
+            </li>
+            <li>
+                <h3> Tomorrow</h3>
+                <img src="assets/some_sun.png" alt="somesun">
+                <p>some sun</p>
+                <div class="gradim">
+                        <p class="high"><span class="current">27°</span></p>
+                        <p class="low"><span class="current">19°</span></p>
+                </div>
+            </li>
+            <li>
+                <h3> Friday</h3>
+                <img src="assets/some_clouds.png" alt="someclouds">
+                <p>some clouds</p>
+                <div class="gradim">
+                        <p class="high"><span class="current">21°</span></p>
+                        <p class="low"><span class="current">16°</span></p>
+                </div>
+            </li>
+            <li>
+                <h3> Saturday</h3>
+                <img src="assets/some_sun.png" alt="somesun">
+                <p>some sun</p>
+                <div class="gradim">
+                        <p class="high"><span class="current">26°</span></p>
+                        <p class="low"><span class="current">21°</span></p>
+                </div>
+            </li>
+        </ul>
+    </div>
+        <div class="cookies-eu-banner">
+            <img src="assets/cookie.png" alt="biskoti">
+            <div class="incookie">
+                <h3>Stop!Cokie time</h3>
+                <p>We use  cookies(sadly not the edible ones) to personalize
+                content and ads, to provide social media features and to 
+                analyse our trafick. <a href="#">Read More</a></p>
+            </div>
+            <button class="accept" onclick="popup(this)">I Accept</button>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
